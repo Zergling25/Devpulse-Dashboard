@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevPulse Cloud Infrastructure</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="#home">DevPulse</a>
+            <a href="#features">Features</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#workload">Calculator</a>
+            <a href="#workload">Deploy Free Cluster</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="home">
+            <h1>DevPulse Cloud Infrastructure</h1>
+            <p>Cloud infrastructure for developers.</p>
+            <a href="#workload">Deploy Free Cluster</a>
+        </section>
+
+        <section id="features">
+            <h2>Platform Features</h2>
+
+            <article>
+                <h3>Latency Tracking</h3>
+                <p>Track application latency.</p>
+            </article>
+
+            <article>
+                <h3>Log Aggregation</h3>
+                <p>Collect and view logs.</p>
+            </article>
+
+            <article>
+                <h3>Auto Remediation</h3>
+                <p>Help manage problems automatically.</p>
+            </article>
+        </section>
+
+        <section id="pricing">
+            <h2>Pricing Plans</h2>
+
+            <article>
+                <h3>Developer</h3>
+                <p>For individual developers.</p>
+            </article>
+
+            <article>
+                <h3>Pro Cluster</h3>
+                <p>Most Popular</p>
+                <p>For larger development workloads.</p>
+            </article>
+
+            <article>
+                <h3>Enterprise Dedicated</h3>
+                <p>For dedicated infrastructure needs.</p>
+            </article>
+        </section>
+
+        <section id="workload">
+            <h2>Workload Estimator</h2>
+
+            <form>
+                <label for="nodes">Node Count</label>
+                <input
+                    type="number"
+                    id="nodes"
+                    name="nodes"
+                    min="1"
+                    max="1000"
+                    step="1"
+                    required
+                >
+
+                <label for="throughput">Log Throughput</label>
+                <input
+                    type="number"
+                    id="throughput"
+                    name="throughput"
+                    min="1"
+                    max="1000"
+                    step="1"
+                    required
+                >
+
+                <label for="contact">Operator Contact Field</label>
+                <input
+                    type="email"
+                    id="contact"
+                    name="contact"
+                    required
+                >
+
+                <button type="submit">Deploy Cluster</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>DevPulse Cloud Infrastructure</p>
+        <a href="#home">Back to Top</a>
+    </footer>
+
+</body>
+</html>
