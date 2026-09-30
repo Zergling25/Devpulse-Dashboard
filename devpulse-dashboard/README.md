@@ -2,7 +2,7 @@ DevPulse Dashboard
 
 A simple example developer productivity dashboard built with HTML and CSS.
 
-Files
+Files:
 
 index.html
 
